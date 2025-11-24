@@ -10,7 +10,7 @@ const items = [
   { name: "Chocolate Babka", price: "ksh 550", Icon: Croissant },
 ];
 
-export function MenuGrid() {
+export default function MenuGrid() {
   return (
     <div className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6">

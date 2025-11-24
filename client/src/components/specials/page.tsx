@@ -1,7 +1,7 @@
 // components/TodaysSpecial.tsx
 import { Coffee } from "lucide-react";
 
-export function TodaysSpecial() {
+export default function TodaysSpecial() {
   return (
     <div className="py-20 bg-orange-50">
       <div className="max-w-5xl mx-auto px-6 text-center">

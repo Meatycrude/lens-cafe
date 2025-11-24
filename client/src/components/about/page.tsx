@@ -1,5 +1,4 @@
-// components/AboutSnippet.tsx
-export function AboutSnippet() {
+export default function AboutSnippet() {
   return (
     <div className="py-20">
       <div className="max-w-6xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">

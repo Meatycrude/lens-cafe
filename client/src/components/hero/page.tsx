@@ -62,7 +62,7 @@ export default function Hero() {
             <div className="relative">
               {/* Main coffee image */}
               <img
-                src="https://images.unsplash.com/photo-1517251798998-05f3ce407b8b?w=1200&h=1400&fit=crop&crop=center"
+                src="/images/logo.jpg"
                 alt="Steaming cup of latte art at Lens Café"
                 className="rounded-2xl shadow-2xl w-full max-w-lg object-cover border-8 border-white"
               />

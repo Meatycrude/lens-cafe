@@ -10,7 +10,7 @@ export default function TodaysSpecial() {
         </h2>
         <div className="mt-12 bg-white rounded-3xl shadow-2xl overflow-hidden max-w-2xl mx-auto">
           <img
-            src="https://images.unsplash.com/photo-1517251798998-05f3ce407b8b?w=800"
+            src="/images/coffee.jpg"
             alt="Today’s special drink"
             className="w-full h-96 object-cover"
           />

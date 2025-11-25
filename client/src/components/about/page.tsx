@@ -17,7 +17,7 @@ export default function AboutSnippet() {
           </p>
         </div>
         <img
-          src="https://images.unsplash.com/photo-1517248135467-107d8c9e03d0?w=1000"
+          src="/images/interior.jpg"
           alt="Cozy interior of Lens Café"
           className="rounded-2xl shadow-2xl"
         />

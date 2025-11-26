@@ -6,6 +6,7 @@ import Menu from "@/components/menu/page";
 import QuickInfoBar from "@/components/quickbar/page";
 import Specials from "@/components/specials/page";
 import AboutSnippet from "@/components/about/page";
+import Customer from "@/components/customer/page";
 
 export default function Homepage() {
   return (
@@ -16,6 +17,7 @@ export default function Homepage() {
       <Specials />
       <Menu />
       <AboutSnippet />
+      <Customer />
     </div>
   );
 }

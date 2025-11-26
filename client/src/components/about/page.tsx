@@ -8,7 +8,7 @@ export default function AboutSnippet() {
           </h2>
           <p className="text-lg text-gray-700 mt-6 leading-relaxed">
             Lens Café was born from a love of photography and perfect light. We
-            designed every corner so your latte looks as good as it tastes — and
+            designed every corner so your latte looks as good as it tastes and
             your camera will thank you.
           </p>
           <p className="text-lg text-gray-700 mt-4 leading-relaxed">

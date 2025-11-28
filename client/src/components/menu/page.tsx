@@ -1,4 +1,3 @@
-// components/MenuGrid.tsx
 import { Coffee, Croissant, Cake, Utensils } from "lucide-react";
 
 const items = [
@@ -23,14 +22,12 @@ export default function MenuGrid() {
               key={name}
               className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition"
             >
-              <div className="h-48 bg-gradient-to-br from-amber-100 to-orange-100 flex items-center justify-center">
+              <div className="h-48 bg-amber-200 flex items-center justify-center">
                 <Icon className="w-20 h-20 text-amber-700 opacity-60" />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-800">{name}</h3>
-                <p className="text-3xl font-bold text-amber-700 mt-2">
-                  {price}
-                </p>
+                <p className="text-l font-bold text-amber-700 mt-2">{price}</p>
               </div>
             </div>
           ))}

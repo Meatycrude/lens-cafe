@@ -7,7 +7,7 @@ export default function Customer() {
           <h1 className="text-[30px] text-amber-700 font-bold underline p-2 ">
             100th customer offer
           </h1>
-          <p className="text-[17px] text-gray-700 mt-4 text-justify ">
+          <p className="text-[17px] text-black mt-4 text-justify ">
             Get a free coffee on us! Be our 100th customer and enjoy a
             complimentary beverage of your choice as a token of our
             appreciation.

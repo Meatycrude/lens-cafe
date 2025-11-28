@@ -9,6 +9,7 @@ export default function Services() {
           The best that can ever exist in a coffee shop{" "}
         </p>
       </div>
+      <div className="h-screen bg-slate-200">hello</div>
     </div>
   );
 }

@@ -10,10 +10,13 @@ import {
   MapPin,
 } from "lucide-react";
 import Link from "next/link";
+import Navbar from "@/components/navbar/page";
+import Footer from "@/components/footer/page";
 
 export default function ServicesPage() {
   return (
     <>
+      <Navbar />
       <div className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-amber-50 via-orange-50 to-amber-100 overflow-hidden">
         <div className="relative max-w-7xl mx-auto px-6 py-24 text-center z-10">
           <h1 className="text-5xl md:text-7xl font-bold text-amber-900 mb-6 leading-tight">
@@ -133,6 +136,7 @@ export default function ServicesPage() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

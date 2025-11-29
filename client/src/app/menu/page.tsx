@@ -1,3 +1,4 @@
+import Navbar from "@/components/navbar/page";
 import {
   Coffee,
   Croissant,
@@ -13,57 +14,57 @@ const menuCategories = [
     name: "Espresso Bar",
     icon: Coffee,
     items: [
-      { name: "Espresso", price: "3.50" },
-      { name: "Macchiato", price: "4.00" },
-      { name: "Cortado", price: "4.20" },
-      { name: "Flat White", price: "4.80" },
-      { name: "Cappuccino", price: "4.80" },
-      { name: "Latte", price: "5.00 / 5.50" },
-      { name: "Mocha", price: "5.80" },
-      { name: "Today's Special Latte", price: "6.00", highlight: true },
+      { name: "Espresso", price: "350" },
+      { name: "Macchiato", price: "400" },
+      { name: "Cortado", price: "420" },
+      { name: "Flat White", price: "480" },
+      { name: "Cappuccino", price: "480" },
+      { name: "Latte", price: "500 / 550" },
+      { name: "Mocha", price: "580" },
+      { name: "Today's Special Latte", price: "600", highlight: true },
     ],
   },
   {
     name: "Filter & Pour-Over",
     icon: Coffee,
     items: [
-      { name: "House Blend Drip", price: "4.00" },
-      { name: "Single-Origin Pour-Over", price: "6.00 – 8.00" },
-      { name: "Cold Brew", price: "5.50" },
-      { name: "Nitro Cold Brew", price: "6.50" },
+      { name: "House Blend Drip", price: "400" },
+      { name: "Single-Origin Pour-Over", price: "600 – 800" },
+      { name: "Cold Brew", price: "550" },
+      { name: "Nitro Cold Brew", price: "650" },
     ],
   },
   {
     name: "Not Coffee",
     icon: Milk,
     items: [
-      { name: "Matcha Latte", price: "5.80" },
-      { name: "Golden Turmeric Latte", price: "5.50" },
-      { name: "Chai Latte", price: "5.50" },
-      { name: "Hot Chocolate", price: "5.00" },
-      { name: "Fresh Orange Juice", price: "6.00" },
+      { name: "Matcha Latte", price: "580" },
+      { name: "Golden Turmeric Latte", price: "550" },
+      { name: "Chai Latte", price: "550" },
+      { name: "Hot Chocolate", price: "500" },
+      { name: "Fresh Orange Juice", price: "600" },
     ],
   },
   {
     name: "Pastries & Sweets",
     icon: Croissant,
     items: [
-      { name: "Butter Croissant", price: "4.50" },
-      { name: "Almond Croissant", price: "5.00" },
-      { name: "Pain au Chocolat", price: "5.00" },
-      { name: "Cinnamon Babka", price: "5.50" },
-      { name: "Seasonal Danish", price: "5.80" },
-      { name: "Matcha Basque Cheesecake", price: "6.50" },
+      { name: "Butter Croissant", price: "450" },
+      { name: "Almond Croissant", price: "500" },
+      { name: "Pain au Chocolat", price: "500" },
+      { name: "Cinnamon Babka", price: "550" },
+      { name: "Seasonal Danish", price: "580" },
+      { name: "Matcha Basque Cheesecake", price: "650" },
     ],
   },
   {
     name: "Light Bites",
     icon: Soup,
     items: [
-      { name: "Avocado Toast", price: "9.50" },
-      { name: "Yogurt & House Granola", price: "8.00" },
-      { name: "Truffle Egg Toast", price: "10.00" },
-      { name: "Soup of the Day", price: "7.50" },
+      { name: "Avocado Toast", price: "950" },
+      { name: "Yogurt & House Granola", price: "800" },
+      { name: "Truffle Egg Toast", price: "1000" },
+      { name: "Soup of the Day", price: "750" },
     ],
   },
 ];
@@ -71,10 +72,10 @@ const menuCategories = [
 export default function MenuPage() {
   return (
     <>
-      {/* Hero */}
+      <Navbar />
       <div className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-amber-900 to-orange-800 text-white overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-40"></div>
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1495474472287-4d71bc168240?w=1600')] bg-cover bg-center opacity-30"></div>
+        <div className="absolute inset-0 bg-[url('https://i.pinimg.com/736x/bc/f2/c2/bcf2c2913e28f70ed6fb7fd12917752c.jpg')] bg-cover bg-center opacity-30"></div>
 
         <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
           <h1 className="text-6xl md:text-8xl font-bold mb-6">Our Menu</h1>
@@ -126,7 +127,7 @@ export default function MenuPage() {
                           </h3>
                         </div>
                         <span className="text-2xl font-bold text-amber-700">
-                          ${item.price}
+                          ksh{item.price}
                         </span>
                       </div>
                     </div>
@@ -138,7 +139,6 @@ export default function MenuPage() {
         </div>
       </div>
 
-      {/* Bottom CTA */}
       <div className="py-24 bg-amber-900 text-white">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-4xl md:text-6xl font-bold mb-6">Thirsty Yet?</h2>

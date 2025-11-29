@@ -1,11 +1,8 @@
-// components/Hero.tsx
-import { section } from "framer-motion/m";
 import { Coffee, Camera, MapPin, Clock } from "lucide-react";
 
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-amber-50 to-orange-50 overflow-hidden">
-      {/* Background subtle pattern (optional) */}
       <div className="absolute inset-0 opacity-50 bg-amber-50"></div>
       <div className="relative max-w-7xl mx-auto px-6 lg:px-12 py-16">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">

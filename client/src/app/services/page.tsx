@@ -112,7 +112,6 @@ export default function ServicesPage() {
         </div>
       </div>
 
-      {/* Final CTA */}
       <div className="py-24 bg-amber-900 text-white">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-4xl md:text-6xl font-bold mb-8">

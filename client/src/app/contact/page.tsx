@@ -8,14 +8,16 @@ import {
   Coffee,
 } from "lucide-react";
 import Link from "next/link";
-
+import Navbar from "@/components/navbar/page";
+import Footer from "@/components/footer/page";
 export default function ContactPage() {
   return (
     <>
+      <Navbar />
       {/* Hero */}
       <div className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-amber-900 to-orange-900 text-white overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-50"></div>
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1554110397-9bac6c4a8dbf?w=1800')] bg-cover bg-center opacity-20"></div>
+        <div className="absolute inset-0 bg-[url('https://i.pinimg.com/736x/fb/a6/ad/fba6adc34711997b82a6c670befd6a14.jpg')] bg-cover bg-center opacity-20"></div>
 
         <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
           <h1 className="text-6xl md:text-8xl font-bold mb-6">Get in Touch</h1>
@@ -218,6 +220,7 @@ export default function ContactPage() {
           </Link>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

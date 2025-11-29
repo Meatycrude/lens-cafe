@@ -53,7 +53,7 @@ export default function ContactPage() {
                       <p className="text-gray-700 mt-1">
                         123 Shutter Street
                         <br />
-                        Lensville, LV 90210
+                        kisii town, KE 40200
                       </p>
                     </div>
                   </div>
@@ -70,7 +70,7 @@ export default function ContactPage() {
                         href="tel:+15551234567"
                         className="text-gray-700 hover:text-amber-700 transition"
                       >
-                        (555) 123-4567
+                        071234567
                       </a>
                     </div>
                   </div>
@@ -87,7 +87,7 @@ export default function ContactPage() {
                         href="mailto:hello@lenscafe.co"
                         className="text-gray-700 hover:text-amber-700 transition"
                       >
-                        hello@lenscafe.co
+                        @lenscafe.co
                       </a>
                     </div>
                   </div>

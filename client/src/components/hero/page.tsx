@@ -32,7 +32,7 @@ export default function Hero() {
               </div>
               <div className="flex items-center gap-3">
                 <MapPin className="w-5 h-5 text-amber-600" />
-                <span>123 Shutter Street, Lensville</span>
+                <span>123 , kisii town</span>
               </div>
             </div>
 

@@ -11,7 +11,7 @@ import Link from "next/link";
 
 const menuCategories = [
   {
-    name: "Espresso Bar",
+    name: "Espreso Bar",
     icon: Coffee,
     items: [
       { name: "Espresso", price: "350" },

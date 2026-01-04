@@ -39,7 +39,7 @@ export default function RootLayout({
           href="/apple-touch-icon.png"
         />
         <meta name="apple-mobile-web-app-title" content="Len's Cafe" />
-        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="manifest" href="/site.webmanifest" />S
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
